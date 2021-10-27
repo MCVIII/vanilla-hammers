@@ -20,6 +20,7 @@ repositories {
     maven { url "https://server.bbkr.space/artifactory/libs-release" }
     maven { url "https://maven.shedaniel.me/" }
     maven { url "https://maven.terraformersmc.com/"}
+    mavenLocal()
 }
 
 dependencies {
